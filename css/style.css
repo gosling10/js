@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(181, 87, 218, 0.185);
+}
+.big{
+    font-size:36px ;
+}
+.small-red{
+    font-size: 10px;
+    color: red;
+}
+.blue{
+    color: blue;
+    background-color: rgb(241, 95, 131);
+}
+.block{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+.picture{
+    opacity: 0;
+    transition: opacity 2s;
+}
+.show{
+    opacity: 1;
+}
